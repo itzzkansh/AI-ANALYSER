@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 
 // import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js"; 
+import resumeRoutes from "./routes/resumeRoutes.js";
 
 const app = express();
 
@@ -32,5 +33,6 @@ app.get("/", (req, res) => {
     message: "AI ATS Resume Analyzer API",
   });
 });
+app.use("/api/resume", resumeRoutes);
 
 export default app;
