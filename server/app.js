@@ -3,7 +3,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 
 // import connectDB from "./config/db.js";
-import authRoutes from "./routes/authRoutes.js"; 
+import authRoutes from "./routes/authRoutes.js";
 import resumeRoutes from "./routes/resumeRoutes.js";
 
 const app = express();
@@ -14,9 +14,9 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://ai-analyser-black.vercel.app"],
     credentials: true,
-  })
+  }),
 );
 
 app.use(express.json());
@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // routes
-app.use("/api/auth", authRoutes); 
+app.use("/api/auth", authRoutes);
 
 // test route
 app.get("/", (req, res) => {
