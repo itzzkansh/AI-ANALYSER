@@ -2,14 +2,6 @@
 
 An AI-powered ATS Resume Analyzer built using the **MERN Stack**. The application allows users to securely upload PDF resumes, manage their resume history, and receive AI-based ATS analysis to improve resume quality.
 
-> 🚀 This project is currently under active development.
-
----
-
-## 🌐 Live Demo
-
-Coming Soon...
-
 ---
 
 ## ✨ Features
@@ -32,16 +24,6 @@ Coming Soon...
 - Tailwind CSS UI
 - Resume Upload Page
 - ATS Analysis Result Page
-
----
-
-## 🚀 Upcoming Features
-
-- 🤖 AI-powered ATS Resume Analysis (Google Gemini)
-- ☁️ Cloudinary Integration
-- 📊 Improved ATS Scoring
-- 📥 Download Analysis Report
-- 🌙 Dark Mode
 
 ---
 
@@ -130,9 +112,7 @@ npm run dev
 
 # 🔑 Environment Variables
 
-Create a `.env` file inside the **server** folder.
 
-```env
 PORT=5000
 
 MONGO_URI=********************
@@ -140,33 +120,6 @@ MONGO_URI=********************
 JWT_SECRET=*******************
 
 GEMINI_API_KEY=***************
-```
-
----
-
-# 📸 Screenshots
-
-## Login Page
-
-_Add Screenshot_
-
----
-
-## Dashboard
-
-_Add Screenshot_
-
----
-
-## Upload Resume
-
-_Add Screenshot_
-
----
-
-## Resume Analysis
-
-_Add Screenshot_
 
 ---
 
@@ -202,17 +155,6 @@ _Add Screenshot_
 
 ---
 
-# 📌 Future Improvements
-
-- Google Gemini Integration
-- Cloudinary Storage
-- Resume Download
-- ATS Score Visualization
-- Job Description Matching
-- Resume Versioning
-
----
-
 # 👨‍💻 Author
 
 **Yash Jangid**
@@ -223,7 +165,7 @@ GitHub: https://github.com/itzzkansh
 
 LinkedIn: https://linkedin.com/in/yash-jangid-63936932b/
 
----
+
 
 ## ⭐ Support
 
